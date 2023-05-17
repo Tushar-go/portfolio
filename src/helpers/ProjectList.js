@@ -14,8 +14,8 @@ export const ProjectList = [
       name: "Portfolio Website",
       image: Proj2,
       skills: "React,Css",
-      repo: "https://github.com/Tushar-go/Cinemate",
-      live:"https://cinemate-td.netlify.app/"
+      repo: "https://github.com/Tushar-go/portfolio",
+      live:"https://tushar-go.github.io/portfolio/"
     },
     {
       name: "Taskmate",

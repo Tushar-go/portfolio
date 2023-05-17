@@ -1,6 +1,6 @@
 import { BrowserRouter as Router ,
   Route ,
-  Routes,HashRouter } from 'react-router-dom';
+  Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -12,8 +12,8 @@ import ProjectDisplay from './pages/ProjectDisplay';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <HashRouter basename='/'>
+      <Router basename='/portfolio'>
+        
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path='/experience' element={<Experience />} />
         </Routes>
         <Footer />
-        </HashRouter>
+        
       </Router>
        
     </div>
