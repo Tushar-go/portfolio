@@ -1,8 +1,16 @@
 import Proj1 from "../assets/movie.png";
 import Proj2 from "../assets/port.png";
 import Proj3 from "../assets/task.png";
+import Ecomerce from "../assets/ecommerce.png"
 
 export const ProjectList = [
+    {
+      name: "CodeBook -An Ecommerce website",
+      image: Ecomerce,
+      skills: "React,TailwindCss,Context API",
+      repo: "https://github.com/Tushar-go/codebook",
+      live:"https://codebook-ol.netlify.app/"
+    },
     {
       name: "Movie Recommendation Website",
       image: Proj1,
