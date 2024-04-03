@@ -1,6 +1,4 @@
 {
-  "homepage": "https://Tushar-go.github.io/portfolio",
-  "name": "portfolio-main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

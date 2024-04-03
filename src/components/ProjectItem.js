@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 function ProjectItem({ image, name, id }) {
   const navigate = useNavigate();
   return (
-    <div
+    <div 
+    key={id}
       className="projectItem"
       onClick={() => {
         navigate("/project/" + id);

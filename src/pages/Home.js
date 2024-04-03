@@ -7,7 +7,7 @@ function Home() {
         <h2> Hey there, Im Tushar Dhalwal</h2>
         <div className="prompt">
           <p>
-          Passionate Frontend Developer Creating Engaging Web Experiences through Continuous Learning
+          Passionate Frontend Developer 
           </p>
         </div>
       </div>
