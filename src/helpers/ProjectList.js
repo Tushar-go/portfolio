@@ -5,7 +5,7 @@ import Ecomerce from "../assets/ecommerce.png"
 
 export const ProjectList = [
     {
-      id:1,
+      id:0,
       name: "CodeBook -An Ecommerce website",
       image: Ecomerce,
       skills: "React,TailwindCss,Context API",
@@ -13,7 +13,7 @@ export const ProjectList = [
       live:"https://codebook-ol.netlify.app/"
     },
     {
-      id:2,
+      id:1,
       name: "Movie Recommendation Website",
       image: Proj1,
       skills: "React,TailwindCss",
@@ -21,7 +21,7 @@ export const ProjectList = [
       live:"https://cinemate-td.netlify.app/"
     },
     {
-      id:3,
+      id:2,
       name: "Portfolio Website",
       image: Proj2,
       skills: "React,Css",
@@ -29,7 +29,7 @@ export const ProjectList = [
       live:"https://tushar-go.github.io/portfolio/"
     },
     {
-      id:4,
+      id:3,
       name: "Taskmate",
       image: Proj3,
       skills: "React,Css",
